@@ -10,6 +10,6 @@ public class Tokens {
     public static final String KEY_CSRF_TOKEN_REQUEST = "X-CSRF-Token";
     public static final String KEY_LOGOUT_TOKEN = "logout_token";
     public static final String KEY_AUTHORIZATION = "Authorization";
-    public static final String serv_end_Pnt_LOGIN = "http://sc-d8-01.itech-planet.net/user/login?_format=json";
-    public static final String serv_end_Pnt_LOGOUT = "http://sc-d8-01.itech-planet.net/user/logout";
+    public static final String serv_end_Pnt_LOGIN = "http://<DRUPAL-8-APP-URL>/user/login?_format=json";
+    public static final String serv_end_Pnt_LOGOUT = "http://<DRUPAL-8-APP-URL>/user/logout";
 }
